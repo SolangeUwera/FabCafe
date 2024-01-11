@@ -1,0 +1,174 @@
+/* .imagebook{background-color: brown;
+    width: 100%;
+    height: 100%;
+    margin-left: -50%;
+    position: relative;
+    /* flex: 5; */
+    /* overflow: hidden; */
+/* } */ */
+.img1{
+    position: relative;
+    object-fit: cover;
+    width: 120%;
+  
+    /* margin-top: -13%;
+    margin-left: -70%; */
+}
+.booktable{
+
+    background-image: url(../assets/Rest.jpg);
+    background-size: cover; /* or contain, depending on your preference */
+    background-repeat: no-repeat;
+    height: 300px;
+    
+}
+.booktable{
+    margin-left: ;
+}
+.img2{
+    position: relative;
+   
+    object-fit: cover;
+    margin-left: -70%;
+}
+.headtablebook{
+    font-family: 'Raleway';
+    position:relative;
+    color: #FFFFFF;
+    z-index: 5;
+    margin-top: 52%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0 0 14px;
+   
+}
+.headandparag{
+    justify-content: center;
+    text-align: center;
+    /* margin-top: 5%; */
+}
+.partablehead{
+    color: #FFFFFF80;
+    font-size:xx-large;
+    font-weight: 800;
+    position: relative;
+    z-index: 3;
+    margin: 0 0 28px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway';
+}
+.butota{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.butotable{
+    position: relative;
+    margin-top: 0%;
+    z-index: 3;
+    margin-left: 30%;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF80;
+    background-color: rgb(249, 207, 100);
+    border-color: rgb(249, 207, 100);
+    font-weight: 900;
+
+    font-size:20px;
+    font-family: 'Oswald';
+    border: 2px solid peru;
+    font-size: 1.2rem;
+        border-radius: 0;
+        height: calc(3.5rem + 2px);
+       color: inherit;
+       cursor: pointer;
+       color: white;
+       box-shadow: none;
+    transform: translateY(-2px);
+    outline: none;
+   
+}
+.butotable2{
+    font-family: 'Oswald';
+    font-weight: 900;
+    font-size:20px;
+    background-color:  transparent;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 0%;
+    z-index: 3;
+    margin-left: 5%;
+    border-color: rgb(249, 207, 100);
+    font-size: 1.2rem;
+    border-radius: 0;
+    height: calc(3.5rem + 2px);
+   color: inherit;
+   cursor: pointer;
+   color: white;
+   box-shadow: none;
+transform: translateY(-2px);
+outline: none;
+}
+@media only screen and (max-width: 600px){
+    /*Big smartphones [401px -> 600px]*/
+img {
+    max-width: 100%;
+    height: 500vh;
+    margin: 0 auto;
+
+}
+.booktable{
+    max-width: 100%;
+    height: auto;
+    margin-top: 25%;
+}
+
+.butotable{
+    margin-left: 6%;
+    display: inline-block;
+    display: inline-block;
+}
+
+
+.headtablebook{
+    position:relative;
+    color: whitesmoke;
+    z-index: 5;
+    
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 20px;
+   
+}
+.headandparag{
+    justify-content: center;
+    text-align: center;
+    /* margin-top: 5%; */
+}
+.partablehead{
+    color: whitesmoke;
+    font-size:20px;
+    font-weight: 800;
+    position: relative;
+    z-index: 3;
+  
+    justify-content: center;
+    align-items: center;
+}
+.booktable{
+
+    background-image: url(../assets/10007.jpg);
+    background-size: cover; /* or contain, depending on your preference */
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 65%;
+    
+}
+
+}

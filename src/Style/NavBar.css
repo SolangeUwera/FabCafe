@@ -1,0 +1,169 @@
+.menu-container {
+  max-width:100%;
+  text-align: center;
+      font-size:15px;
+
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content:space-around;
+        z-index: 3;
+        height: auto;
+       z-index: 7;
+
+      }
+      
+.menubar:hover{
+  color: peru;
+ 
+}
+
+.menubar  {
+  color: black;
+  margin-top: 30%;
+}
+      
+      ul {
+      
+        
+        /* position: absolute; */
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 0;
+        color: aliceblue;
+        text-align: center;
+        /* margin-left: 15%; */
+        padding-right: 15%;
+        padding-left: 15%;
+      
+    }
+    
+    .linknav{
+      text-align: center;
+      color: black;
+      text-decoration: none;
+      font-family: 'Oswald';
+      /* margin-left: 20%; */
+
+    }
+.linknav:hover{
+  background: whitesmoke;
+  color: peru;
+  border-radius: 40%;
+  
+}
+    li {
+  cursor: pointer;
+      color: #ddd;
+        margin: 10px;
+        padding: 10px;
+        border: 1 solid gold;
+        /* background-color: blue; */
+        /* border: 1px solid #ddd; */
+    }
+  
+@media only screen and (max-width: 1200px){
+  .wrapper{ 
+    max-width: 1020px;
+  
+  }
+
+  .mainDashForm{
+    max-width: 3000px;
+    margin: 20px 0;
+    padding: 8px;
+
+  }
+  .optioninvoice{
+    max-width: 150px;
+    margin-left: 0%;
+  }
+  .modal { 
+    max-width: 350px;
+  }
+  .buto{
+    max-width: 350px
+  }
+  .body-main {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 35px;
+    padding: 20px;
+    gap: 600px;
+    flex-grow: 1;
+    height: 80vh;
+    max-width: 350px;
+
+}
+.labodiv{
+  /* background-color: rgb(217, 255, 0); */
+  width: 100px  ;
+  justify-content: center;
+  height: 100%;
+  background-color: red   ;
+  
+}
+/* .details{
+  //background-color: red  ;
+
+  //min-width: 600px !important ;
+  min-height: 600px ! important;
+} */
+#back-button{
+  text-align: left;
+  width: 100%;
+}
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+/*Big smartphones [401px -> 600px]*/
+
+
+.menu-container ul {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-left: -10%;
+  z-index: 8;
+  display: flex;
+  position: relative;
+  font-weight:bolder; 
+      /* margin-left: -15%; */
+      /* font-size:30px;*/
+    
+        display: flex;
+        flex: 1;
+        flex-direction: column; 
+  
+        /* margin-top: -20%; */
+        /* justify-content: space-between; */
+        /* padding-right: 40px; */
+        /* z-index: 3; */
+        /* position: absolute; */
+        /* color: white; */
+     
+        /* width: 100%; */
+        /* height: 100%; */
+        /* width: auto; */
+        /* height: auto; */
+        /* transform: translate(-50%, -50%); */
+        /* background-color: whitesmoke; */
+
+      }
+
+
+
+
+}
+@media only screen and (max-width: 400px){
+/*Small smartphones [325px -> 400px]*/
+
+
+
+}
+
+
+
+

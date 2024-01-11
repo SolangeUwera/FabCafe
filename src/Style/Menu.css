@@ -1,0 +1,201 @@
+.pizzadiva{
+    border: 2px red;
+    display: flex;
+    background-color: rgb(233, 46, 46);
+    height: 20%;
+    /* position: relative; */
+    /* width: 85%; */
+    /* flex-wrap: wrap; */
+    /* margin-left: 20%; */
+}
+.circleIcon1menu{
+    color:rgb(228, 203, 64) ;
+    width: 500px;
+     margin-top: 20%;
+    height: 50px;
+    margin-left: -80%; 
+   }
+   .footsou{
+    color: wheat;
+   }
+   .leftOmenu{
+   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 50px;  
+    padding-right: 20px; */
+    margin-left: -20%;
+    background-color: rgb(45, 45, 45);
+    width: 250PX;
+    height: 250px;
+    z-index: 3;
+    
+}
+.burgerdivamenu{
+
+    font-size: 40px;
+    position: relative;
+    display: flex;
+    
+    /* align-items: center;
+    align-content: center;
+    
+    /* transform: translate(220%, -80%); */
+    color: black;
+   margin-left: 10%;
+    font-weight: 200;
+    font-size: 80px;
+    text-align: center;
+}
+.addtocat{
+    margin-left: 190%;
+}
+.table2{
+    margin-left:9%;
+    width: 61%;
+    position: relative;
+    background-color: whitesmoke;
+    margin-top: 5%;
+    z-index: 5;
+}
+
+
+
+.table{
+    margin-left: 9%;
+    width: 61%;
+    position: relative;
+    background-color: whitesmoke;
+    margin-top: 35%;
+    z-index: 5;
+   
+}
+.burgerdivpmenu{
+    font-weight: 200;
+    font-size: 20px;
+    position: relative;
+    color: black;
+    font-size: 40px;
+    z-index: 5;
+    margin-left: -40%;
+    margin-top:17%;
+
+}
+.blakNav {
+    margin-top: 2%;
+    position: sticky;
+    background-color:  rgb(55, 54, 54); 
+    height: 60vh;
+    width: 20%;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+.blakNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pizzamenu2{
+    margin-left: 24.5%;
+    position: relative;
+   
+
+}
+.pizzamenu2 img{
+   
+    width: 80%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: -20%;
+    
+}
+
+.flediv{
+    /* border: 2px solid red; */
+    /* display: flex;
+    flex-direction: column;
+    gap: 5px;
+     */
+    
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+/* 
+.pizzamenu{
+    /* display: flex; */
+    /* position: relative; */
+    /* margin-top: 0%; */
+    /* margin-left: 24.5%; */
+/* } */ 
+
+.burgermenu{
+    font-size: 80px;
+    position: relative;
+    margin-top: -65%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    /* transform: translate(120%, -50%); */
+    z-index: 5;
+    color: aliceblue;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Add a border on all sides */
+    padding: 8px;
+    text-align: right;
+    
+}
+.addtablecart{
+    border: 5px solid rgb(222, 194, 37);
+}
+.addtablecart :hover{
+    background-color: rgb(99, 87, 87);
+}
+
+td {
+    border-left: none; /* Remove the left border for cells except the first column */
+}
+.tableleft{
+    text-align: left;
+    border-right: none
+}
+.tableright{
+    border-right: none
+}
+
+.flex-container{
+    display: flex;
+    flex: 80%;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px){
+    /*Big smartphones [401px -> 600px]*/
+.flex-container {
+
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+.burgerdivamenu{
+    margin-top: -30%;
+}
+
+}
