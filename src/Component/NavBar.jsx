@@ -8,7 +8,7 @@
 // import Modal from "./Modal";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom"; 
-import "../Style/Navbar.css"
+import "./NavBar.css"
 
 // import { Outlet } from "react-router-dom";
 // import Footer from "./Footer";
