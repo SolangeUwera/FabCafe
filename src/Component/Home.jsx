@@ -13,7 +13,7 @@ import Offer from "./Offers"
 import Book from "./Book"
 import pizzadiv3 from "../assets/image-1.jpg"
 import pizzadivr from "../assets/supageti1.jpg"
-import pizzadivk from "./Sushi22.jpg"
+import pizzadivk from "./sushi22.jpg"
 import { Carousel } from 'react-responsive-carousel';
 const Homepage = () => {
   return (
