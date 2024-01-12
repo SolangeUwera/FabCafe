@@ -107,6 +107,13 @@ button:focus-visible {
     border-width: 2px;
     box-sizing: border-box;
 }
+.burgermenu{
+  font-family: 'Raleway';
+}
+.blakNav{
+  font-family: 'Raleway';
+  font-size: 20px;
+}
 .sl-button-submit12{
   color: #f9f9f9;
   margin: 20px 0 10px 0;

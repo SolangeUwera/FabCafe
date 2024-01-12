@@ -14,7 +14,7 @@ const Book = () => {
     <div className="booktable">
       <div className="headandparag">
     <h1 className="headtablebook"> Would you like to visit Us</h1>
-    <p className="partablehead">Book a table righ tnow or make order online</p>
+    <p className="partablehead">Book a table right now or make order online</p>
     </div>
     <div className="butota">
     <Link to="/orderOnline"><button className="butotable">Order Online </button></Link>

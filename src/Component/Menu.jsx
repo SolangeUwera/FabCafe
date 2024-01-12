@@ -189,7 +189,7 @@ const Order = () => {
                     <td className="tableleft">
                      Sushi
                     </td>
-                    <td className="tableright">from $9.00</td>
+                    <td className="tableright">from $10.00</td>
                     <td>
                     <Link to="/cart"> <button className="addtablecart">Add To Cart</button>
                     </Link></td>
@@ -198,7 +198,7 @@ const Order = () => {
                     <td className="tableleft">
                       Supageti
                     </td>
-                    <td className="tableright">from $9.00</td>
+                    <td className="tableright">from $6.00</td>
                     <td>
                     <Link to="/cart"> <button className="addtablecart">Add To Cart</button>
                     </Link></td>
@@ -207,7 +207,7 @@ const Order = () => {
                     <td className="tableleft">
                       Burger
                     </td>
-                    <td className="tableright">from $9.00</td>
+                    <td className="tableright">from $5.00</td>
                     <td>
                     <Link to="/cart"><button className="addtablecart">Add To Cart</button>
                     </Link></td>
@@ -216,7 +216,7 @@ const Order = () => {
                     <td className="tableleft">
                       Pizza
                     </td>
-                    <td className="tableright">from $9.00</td>
+                    <td className="tableright">from $8.00</td>
                     <td>
                     <Link to="/cart"><button className="addtablecart">Add To Cart</button>
                     </Link></td>

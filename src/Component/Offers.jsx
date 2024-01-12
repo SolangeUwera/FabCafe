@@ -2,9 +2,9 @@ import "../Style/Offer.css"
 import NavBar from "./NavBar"
 import Footer from "./Footer"
 import { SiAnaconda } from "react-icons/si";
-import pizzadiv from "../assets/10009.jpg"
+import pizzadiv from "../assets/image-1.jpg"
 import pizzadiv2 from "../assets/10002.jpg"
-import pizzadiv3 from "../assets/10008.jpg"
+import pizzadiv3 from "../assets/supageti3.jpg"
 
 const Offer = () => {
   return (
@@ -40,7 +40,7 @@ const Offer = () => {
 
    <div className="pizzadivb">
 
-   <img src={pizzadiv3} alt="img" width={800} height={500}  className="imgpiz"/>
+   <img src={pizzadiv} alt="img" width={800} height={500}  className="imgpiz"/>
    </div>
  <div className="whitediva"> 
     <h1 className="headinwhitea">Free Small Pizza</h1>
@@ -73,7 +73,7 @@ const Offer = () => {
   <img src={pizzadiv3} alt="img" width={900} height={500}  className="imgpiz"/>
   </div>
 <div className="whitediva"> 
-   <h1 className="headinwhitea">Free Burger</h1>
+   <h1 className="headinwhitea">Free plate of Supageti</h1>
 
    <p>Get free burger from orders higher that $40!</p>
    <p>Only on Tuesdays</p>

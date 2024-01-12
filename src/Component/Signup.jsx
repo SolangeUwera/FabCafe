@@ -57,7 +57,7 @@ const Sign = () => {
           />
         </div>
         <div className="flex-column">
-          <label>Password </label>
+          <label>Phone Number </label>
         </div>
         <div className="sl-inputForm">
           <input
