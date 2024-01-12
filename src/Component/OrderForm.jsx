@@ -60,6 +60,23 @@ const Sign = () => {
           />
         </div>
         <div className="flex-column">
+          <label>Phone Number </label>
+        </div>
+        <div className="sl-inputForm11">
+          <input
+            onChange={(e) => {
+              e.preventDefault();
+              setPassword(e.target.value);
+            }}
+            type="number"
+            className="sl-input"
+            placeholder=""
+          />
+
+          
+        </div>
+
+        <div className="flex-column">
           <label>Sreet and Number </label>
         </div>
         <div className="sl-inputForm11">
